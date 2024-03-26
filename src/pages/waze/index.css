@@ -1,0 +1,461 @@
+body {
+  background-color: #FFFFFF;
+}
+
+/* Part 1 */
+
+header svg {
+  width: 33px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 22px 25px;
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 35px;
+}
+
+header > div a {
+  text-decoration: none;
+  color: #000;
+  font: 600 16px "Waze";
+}
+
+.botao {
+  border: 2px solid #000;
+  border-radius: 18px;
+  padding: 7px 20px;
+}
+
+/* Part 2 */
+
+.secao1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  width: 100%;
+  max-width: 1900px;
+}
+
+.secao1 .imagem {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 180px;
+  gap: 10px;
+
+  color: #fff;
+  background-color: #000;
+  background-image: url('/public/assets/images/Waze/waze-photo1.webp');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+
+  opacity: 0.7;
+}
+
+.secao1 .escuro {
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.secao1 h1 {
+  font: 500 24px "Waze";
+}
+
+.secao1 p {
+  font: 500 54px "Waze";
+}
+
+/* Part 3 */
+
+.secao2 {
+  background-color: #F2F4F7;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 1210px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+
+.secao2 main p {
+  font: 400 28px "Waze";
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 75%;
+  margin: 20px 40px;
+}
+
+/* Part 4 */
+
+.secao3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1210px;
+  gap: 40px;
+  margin: 15px auto;
+}
+
+.secao3 .container {
+  background-color: #FCE354;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px 80px;
+
+  border-radius: 10px;
+}
+
+.secao3 .container img {
+  width: 90px;
+  height: 90px;
+}
+
+.secao3 .container p {
+  font: 500 28px "Waze";
+  width: 335px;
+}
+
+.secao3 .container a {
+  text-decoration: none;
+  font: 600 20px "Waze";
+  color: #000;
+  background-color: #fff;
+  border-radius: 60px;
+  padding: 15px 40px;
+}
+
+.secao3 .image {
+  width: 5px;
+}
+
+.secao3 .image > img {
+  width: 650px;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Part 5 */
+
+.secao4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1170px;
+  margin: 30px auto;
+}
+
+.secao4 .container {
+  background-color: #963EFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px 60px;
+  border-radius: 10px;
+}
+
+.secao4 .container img {
+  width: 90px;
+  height: 90px;
+}
+
+.secao4 .container p {
+  font: 500 28px "Waze";
+  width: 335px;
+  color: #F2F4F7;
+}
+
+.secao4 .container a {
+  text-decoration: none;
+  font: 600 20px "Waze";
+  color: #000;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 15px 40px;
+  width: 350px;
+}
+
+.secao4 .image {
+  flex: 1; 
+}
+
+.secao4 .image > img {
+  width: 650px;
+  height: 580px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Part 6 */
+
+.secao5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1170px;
+  gap: 40px;
+  margin: 15px auto;
+}
+
+.secao5 .container {
+  background-color: #33CCFF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 60px; 
+  border-radius: 10px;
+}
+
+.secao5 .container img {
+  width: 90px;
+  height: 90px;
+}
+
+.secao5 .container p {
+  font: 500 28px "Waze";
+  width: 335px;
+}
+
+.secao5 .container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font: 600 20px "Waze";
+  color: #000;
+  background-color: #fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  width: auto; 
+  max-width: 180px;
+}
+.secao5 .image {
+  width: 5px;
+}
+
+.secao5 .image > img {
+  width: 650px;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Part 7 */
+
+.secao6 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1170px;
+  margin: 30px auto;
+}
+
+.secao6 .container {
+  background-color: #FF8F00;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 60px 40px;
+  border-radius: 10px;
+}
+
+.secao6 .container img {
+  width: 110px;
+  height: 90px;
+}
+
+.secao6 .container p {
+  font: 500 28px "Waze";
+  width: 335px;
+  color: #000;
+}
+
+.secao6 .container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font: 600 20px "Waze";
+  color: #000;
+  background-color: #fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  width: auto; 
+  max-width: 180px;
+}
+
+.secao6 .image {
+  flex: 1; 
+}
+
+.secao6 .image > img {
+  width: 720px;
+  height: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Part 8 */
+
+.secao7 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1170px;
+  gap: 40px;
+  margin: 15px auto;
+}
+
+.secao7 .container {
+  background-color: #F2F4F7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 35px 60px; 
+  border-radius: 10px;
+}
+
+.secao7 .container img {
+  width: 90px;
+  height: 90px;
+}
+
+.secao7 .container p {
+  font: 500 28px "Waze";
+  width: 335px;
+}
+
+.secao7 .container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font: 600 20px "Waze";
+  color: #000;
+  background-color: #fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  width: auto; 
+  max-width: 180px;
+}
+
+.secao7 .image {
+  width: 5px;
+}
+
+.secao7 .image > img {
+  width: 680px;
+  height: 570px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Part 7 */
+
+.secao8 {
+  margin: 0px 30px;
+  padding: 70px 0px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.secao8 > div {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.secao8 > div h1 {
+  font: 600 35px 'Waze';
+}
+
+.secao8 > div p {
+  font: 600 20px 'Waze';
+  color: #56595D;
+}
+
+.wz-footer-meta-social {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.wz-footer-meta-social li { margin-right: 45px; }
+.container1 > span { font: 600 21px 'Waze'; }
+
+.container-wrap {
+  display: flex;
+  gap: 130px;
+}
+
+.container-menu-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font: 600 20px 'Waze';
+}
+
+
+.container-menu-footer li { list-style-type: none; }
+.container-menu-footer li a {
+  text-decoration: none;
+  color: #56595d;
+  transition: color 0.2s;
+}
+.container-menu-footer li a:hover {
+  color: #963EFF;
+}
+
+.secao8 footer {
+  display: flex;
+  gap: 40px;
+  font: 600 18px 'Waze';
+  margin-top: 75px;
+  color: #56595d;
+}
+
+.secao8 footer p {
+  margin-right: 210px;
+}
+
+.secao8 footer > div {
+  display: flex;
+  gap: 120px;
+}
+
+.secao8 footer > div a {
+  text-decoration: none;
+  color: #56595D;
+  margin-right: 100px;
+  transition: color 0.2s;
+}
+.secao8 footer > div a:hover {
+  color: #963EFF;
+}
+
+/* Responsividade */

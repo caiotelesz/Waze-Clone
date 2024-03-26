@@ -1,0 +1,88 @@
+/* Discord */
+@font-face {
+  font-family: "Discord";
+  font-weight: 400;
+  src: url(/public/font/Discord/652736292cbf8363b43d077a_ggsans-Normal.woff2);
+}
+
+@font-face {
+  font-family: "Discord";
+  font-weight: 700;
+  src: url(/public/font/Discord/652737c30510e4ad4333a424_ggsans-Bold.woff2);
+}
+
+@font-face {
+  font-family: "Discord";
+  font-weight: 500;
+  src: url(/public/font/Discord/652737c319ba7da75394c4cb_ggsans-Medium.woff2);
+}
+
+@font-face {
+  font-family: "Discord";
+  font-weight: 600;
+  src: url(/public/font/Discord/652737c319ba7da75394c4dc_ggsans-Semibold.woff2);
+}
+
+@font-face {
+  font-family: "Discord";
+  font-weight: 900;
+  src: url(/public/font/Discord/65273da62cbf8363b445b021_abcgintonord-800-extrabold.woff2);
+}
+
+@font-face {
+  font-family: "Discord";
+  font-weight: 300;
+  src: url(/public/font/Discord/65274471f1a58fe9565b9ca9_60ae8e384c11e54fd6986f3b_ABCGintoNormal-Bold.woff);
+}
+
+/* Waze */
+
+@font-face {
+  font-family: "Waze";
+  font-weight: 400;
+  src: url(/public/font/Waze/boing-400.woff2);
+}
+
+@font-face {
+  font-family: "Waze";
+  font-weight: 600;
+  src: url(/public/font/Waze/boing-500.woff2);
+}
+
+@font-face {
+  font-family: "Waze";
+  font-weight: 800;
+  src: url(/public/font/Waze/af7ae505a9eed503f8b8e6982036873e.woff2);
+}
+
+/* iFood */
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 300;
+  src: url(/public/font/iFood/iFoodRCTextos-Light.7a6b6afe.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 400;
+  src: url(/public/font/iFood/iFoodRCTextos-Regular.c1b7d6bf.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 500;
+  src: url(/public/font/iFood/iFoodRCTextos-Regular.c1b7d6bf.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 700;
+  src: url(/public/font/iFood/iFoodRCTitulos-Medium.c71e8250.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 900;
+  src: url(/public/font/iFood/iFoodRCTitulos-Bold.973a4645.woff2);
+}
